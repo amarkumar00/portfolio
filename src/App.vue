@@ -47,7 +47,6 @@ onBeforeUnmount(() => window.removeEventListener('scroll', updateActiveSection))
           <p class="hero-intro">{{ portfolio.introduction }}</p>
           <div class="hero-actions">
             <a class="button button-primary" href="#projects">View projects <span aria-hidden="true">↘</span></a>
-            <a class="button button-secondary" :href="portfolio.resume" download>Download résumé <span aria-hidden="true">↓</span></a>
           </div>
           <div class="hero-links" aria-label="Professional links">
             <a :href="portfolio.links.github" target="_blank" rel="noreferrer">GitHub ↗</a>
