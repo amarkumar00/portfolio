@@ -1,0 +1,22 @@
+# Track only the deployable portfolio project. This folder also contains
+# private career material and unrelated generated documents.
+*
+
+!.gitignore
+!.vercelignore
+!README.md
+!index.html
+!package.json
+!package-lock.json
+!vite.config.js
+
+!src/
+!src/**
+
+!public/
+!public/amar-kumar.jpeg
+
+!.github/
+!.github/workflows/
+!.github/workflows/deploy-pages.yml
+.vercel

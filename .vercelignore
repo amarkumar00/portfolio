@@ -1,0 +1,21 @@
+# Build artifacts and local tooling
+node_modules
+dist
+.git
+.github
+.vercel
+.DS_Store
+*.log
+
+# Private career and application material
+/personal_info.txt
+/Amar_Kumar_Master_Career_Profile.md
+/Amar_Kumar_MASTER_Resume.pdf
+/Amar_Kumar_ClickPost_AI_Engineer_Intern_Resume_2026-07-11.md
+/applications_tracker.csv
+/SKILL.md
+/signature.jpeg
+/photo.jpeg
+/generated_resumes
+/output
+/tmp
