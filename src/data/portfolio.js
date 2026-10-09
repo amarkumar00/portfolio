@@ -130,6 +130,42 @@ export const portfolio = {
       metrics: ['2 user roles', '4 related domain models'],
       link: 'https://github.com/amarkumar00/parking-management-system',
     },
+    {
+      index: '05',
+      title: 'Placement Portal',
+      type: 'Asynchronous multi-role web application',
+      context: 'IIT Madras · Modern Application Development II · 2026',
+      problem:
+        'Students, companies, and placement administrators need one coordinated system for job listings, applications, approvals, and time-sensitive updates.',
+      solution:
+        'Built a Vue and Flask platform with role-based APIs, Redis-backed caching, and Celery jobs for scheduled and long-running work.',
+      features: [
+        'JWT-protected workflows for administrator, company, and student roles',
+        'Placement listings, application tracking, company approval, and dashboard flows',
+        'Redis caching, Celery background jobs, and automated backend/frontend checks',
+      ],
+      technologies: ['Python', 'Flask', 'Vue.js', 'SQLite', 'Redis', 'Celery'],
+      metrics: ['3 user roles', '15 backend tests'],
+      link: 'https://github.com/amarkumar00/placement-portal',
+    },
+    {
+      index: '06',
+      title: 'Heavy Equipment Price Prediction',
+      type: 'Applied machine-learning regression pipeline',
+      context: 'IIT Madras · Machine Learning Practice · 2026',
+      problem:
+        'Auction prices depend on mixed numerical and high-cardinality categorical data, missing values, depreciation, usage, and equipment configuration.',
+      solution:
+        'Designed a leakage-safe notebook that compares transparent baselines with tuned LightGBM and validates predictions using RMSLE and submission assertions.',
+      features: [
+        'EDA and log-target modelling aligned to the RMSLE objective',
+        'Pipeline-based Ridge and Decision Tree baselines on a shared holdout',
+        'Leakage-safe frequency features, native categorical modelling, and six LightGBM tuning runs',
+      ],
+      technologies: ['Python', 'Pandas', 'Scikit-learn', 'LightGBM', 'Jupyter'],
+      metrics: ['0.196195 validation RMSLE', '0.19236 public submission RMSLE'],
+      link: 'https://github.com/amarkumar00/heavy-equipment-price-prediction',
+    },
   ],
   practicalWork: [
     {
