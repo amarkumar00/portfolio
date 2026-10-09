@@ -92,7 +92,7 @@ export const portfolio = {
       ],
       technologies: ['TypeScript', 'Next.js', 'React', 'Vercel'],
       metrics: ['3 output states', '7 quality-signal categories'],
-      link: 'https://github.com/amarkumar00/AeroGuard-QC-SIH26073',
+      link: 'https://aeroguard-qc-sih26073.vercel.app/',
     },
     {
       index: '03',
